@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Book</title>
+</head>
+<body>
+    <a href="home.html"><button class="back-button marg-15">Back</button></a>
+    <div class="parent">
+        <div class="column-1">
+            <img src="images/Valentines Cake Bites.jpg">
+        </div>
+        <div class="column-2">
+            <h1 class="marg-15">Valentine's Cake Bites</h1>
+            <p class="padd-15">
+                Valentines Cake Bites are fun bite-sized Valentine's Day treats for those times when cupcakes are 
+                too much and cookies are just not special enough.
+            </p>
+            <dl class="padd-15">
+                <dd class="padd-10">These Valentine's Cake Bites turned up nicely and will be appreciated by the whole family.</dd>
+            </dl>
+            <div class="container">
+                <div class="ingredients">
+                    <h2 class="marg-15">Ingredients for Valentine's Cake Bites</h2>
+                    <div class="list-container padd-15">
+                        <ul class="padd-15">
+                            <li class="padd-10">Chocolate Cake Mix</li>
+                            <li class="padd-10">Best Buttercream Frosting</li>
+                            <li class="padd-10">Wilton Color Right Food Coloring - Red</li>
+                            <li class="padd-10">Cookie Sheet</li>
+                            <li class="padd-10">Heart shaped cookie cutter</li>
+                            <li class="padd-10">Valentine's Day Sprinkles</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h2 class="marg-15">How to Make Valentine's Cake Bites</h2>
+                    <div class="list-container padd-15">
+                        <ol class="padd-15">
+                            <li class="padd-10">Make up Chocolate cake batter and pour it into a lined cookie sheet.</li>
+                            <li class="padd-10">Let the cake batter sit on a flat counter for 10-15 minutes to allow it to settle and even out.</li>
+                            <li class="padd-10">Bake the cake in a 350 degree oven for 20 minutes.</li>
+                            <li class="padd-10">Allow the cake to cool and use the parchment paper to remove the cake from the cookie sheet.</li>
+                            <li class="padd-10">Use heart cookie cutter to cut-out the "cake bites".</li>
+                            <li class="padd-10">Make a batch of our Best Buttercream Frosting and tint it pink.</li>
+                            <li class="padd-10">Using a knife, smooth on a generous layer of frosting to the top of the cake bite.</li>
+                            <li class="padd-10">Finally, add some Valentine's Day sprinkles to the top of the frosting.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        background-image: url(images/red.jpg);
+    }
+
+    .back-button {
+        position: absolute;
+        right: 0px;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+
+    .back-button:hover {
+        background-color: #3e8e41;
+    }
+
+    .back-button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .marg-15 {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .padd-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .padd-10 {
+        padding-bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .parent {
+        padding-top: 10vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .column-1 {
+        /* background: red; */
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .column-2 {
+        background: floralwhite;
+        height: auto;
+        border: 2px solid;
+    }
+    .column-1,
+    .column-2
+    {
+        width: 500px;
+    }
+
+    .column-1 img, 
+    .column-2 img {
+        width: 400px;
+        height: 500px;
+        position: fixed;
+    }
+
+    .column-2 h1 {
+        border-bottom: 2px solid green;
+    }
+
+    .column-2 h2 {
+        text-align: start;
+    }
+
+    .ingredients,
+    .steps {
+        width: 100%;
+    }
+</style>
+</html>

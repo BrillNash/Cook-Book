@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Book</title>
+</head>
+<body>
+    <a href="home.html"><button class="back-button marg-15">Back</button></a>
+    <div class="parent">
+        <div class="column-1">
+            <img src="images/Valentine’s Day Cake Mix Cookies.jpg">
+        </div>
+        <div class="column-2"> 
+            <h1 class="marg-15">Valentine's Day Cake Mix Cookies</h1>
+            <p class="padd-15">
+                Enjoy a fun and tasty treat when you make Valentine's Day Cake Mix Cookies. With only a few simple ingredients, 
+                you can make this easy cake mix cookies recipe.
+            </p>
+            <dl class="padd-15">
+                <dt class="padd-10">These cake mix cookies are frugal!</dt>
+                <dd class="padd-10">Maybe you have a large family like I do or maybe you need a bunch of cookies for a party. If so, 
+                    this is the recipe for you!</dd>
+                <dd>Cake mix goes on sale all the time so stock up when it does. You can make these cookies very inexpensively.</dd>
+                <dd>This is the perfect recipe when you need to make a lot of quick and easy cookies without breaking the bank.</dd>
+            </dl>
+            <div class="container">
+                <div class="ingredients">
+                    <h2 class="marg-15">Ingredients for Valentine's Day Cake Mix Cookies</h2>
+                    <div class="list-container padd-15">
+                        <ul class="padd-15">
+                            <li class="padd-10">Strawberry cake mix</li>
+                            <li class="padd-10">Eggs</li>
+                            <li class="padd-10">Oil</li>
+                            <li class="padd-10">White Chocolate Chips</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h2 class="marg-15">How to Make Valentine's Day Cake Mix Cookies</h2>
+                    <div class="list-container padd-15">
+                        <ol class="padd-15">
+                            <li class="padd-10">Preheat oven to 350 degrees F.</li>
+                            <li class="padd-10">Combine the cake mix, eggs and oil together in a large mixing bowl. (Batter will be thick but this is normal).</li>
+                            <li class="padd-10">Simply add in those yummy white chocolate chips. This really takes this recipe up a level.</li>
+                            <ul><li class="padd-10">I like to use a cookie scoop to scoop out the cookies and place on the dough balls on cookie 
+                                sheets leaving about 2 inches between each cookie. </li></ul>
+                            <li class="padd-10">Bake at 350 degrees F for 8 to 10 minutes until cookies brown SLIGHTLY on the edges.</li>
+                            <li class="padd-10">Allow to cool completely and then serve. This is the hard part because they smell so amazing 
+                                that you want to just eat one right away.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="ingredients">
+                    <h2 class="marg-15">Tips to make valentines day cookies recipe:</h2>
+                    <div class="list-container padd-15">
+                        <ul class="padd-15">
+                            <li class="padd-10">If you are still scooping cookies with two spoons, you really need to get yourself some stainless steel scoops!</li>
+                            <li class="padd-10">I have had mine for several years and I use     them for all types of baking. 
+                                I bought the 3 pack and used the smallest of the 3 scoops for these cake mix cookies (and almost all my cookies) and they were just the right 
+                                size for adults and kids.</li>
+                            <li class="padd-10">The other sizes are perfect for other recipes or meatballs and such. Trust me, they will get lots of use and are well 
+                                worth the small investment.</li>
+                            <li class="padd-10">It is also a good idea to use a cooling rack. Place the cookies on racks to cool completely.</li>
+                            <li class="padd-10">We also line baking sheets with parchment paper. This makes cleaning large baking sheets easier 
+                                as well.</li>
+                            <li class="padd-10">You will save lots of time and this is one of our favorite easy recipes. It is one of the easiest dessert recipes ever.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        background-image: url(images/red.jpg);
+    }
+
+    .back-button {
+        position: absolute;
+        right: 0px;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+
+    .back-button:hover {
+        background-color: #3e8e41;
+    }
+
+    .back-button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .marg-15 {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .padd-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .padd-10 {
+        padding-bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .parent {
+        padding-top: 10vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .column-1 {
+        /* background: red; */
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .column-2 {
+        background: floralwhite;
+        height: auto;
+        border: 2px solid;
+
+    }
+    .column-1,
+    .column-2
+    {
+        width: 500px;
+    }
+
+    .column-1 img, 
+    .column-2 img {
+        width: 400px;
+        height: 500px;
+        position: fixed;
+    }
+
+    .column-2 h1 {
+        border-bottom: 2px solid green;
+    }
+
+    .column-2 h2 {
+        text-align: start;
+    }
+
+    .ingredients,
+    .steps {
+        width: 100%;
+    }
+</style>
+</html>

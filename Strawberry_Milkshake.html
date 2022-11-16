@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Book</title>
+</head>
+<body>
+    <a href="home.html"><button class="back-button marg-15">Back</button></a>
+    <div class="parent">
+        <div class="column-1">
+           <h1 class="marg-15">Strawberry Milkshake</h1>
+            <p class="padd-15">Strawberry milkshake made with fresh strawberries is an absolutely perfect drink that's ready in 10 minutes! 
+                Learn how to make milkshakes that taste amazing. Real strawberries play a big role in this shake, no syrup or additional flavoring 
+                is needed</p>
+            <dl class="padd-15">
+                <dt class="padd-10">Why this recipe works</dt>
+                <dd class="padd-10">- It's tasty: Think all fresh strawberries, no strawberry syrup. Just pure, fresh strawberries.</dd>
+                <dd class="padd-10">- Gorgeous color: I mean, who can say no to such a pretty strawberry shake? Especially because this is all natural color!</dd>
+                <dd class="padd-10">- Super simple to make: You only need three ingredients and a blender. Pretty simple right?</dd>
+                <dd class="padd-10">- Made with real ingredients: There is no sugar loaded strawberry syrup or artificial flavors added.</dd>
+            </dl>
+            <div class="container">
+                <div class="ingredients">
+                    <h2 class="marg-15">Ingredients for Strawberry Milkshake</h2>
+                    <div class="list-container padd-15">
+                        <ul class="padd-15">
+                            <li class="padd-10">Strawberries</li>
+                            <li class="padd-10">Vanilla ice cream</li>
+                            <li class="padd-10">Milk</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h2 class="marg-15">How to Make Strawberry Milkshake</h2>
+                    <div class="list-container padd-15">
+                        <ol class="padd-15">
+                            <li class="padd-10">First of all, place the milkshake glasses in the freezer for about 10 minutes. This would keep the milkshake cold for longer.</li>
+                            <li class="padd-10">You need a good amount of strawberries for this easy milkshake recipe. Wash the strawberries and pat dry them. 
+                                If the strawberries are too large, cut them into halves and place them in the blender jar.</li>
+                            <li class="padd-10">Add the ice cream and milk then start blending for ten to twelve seconds until everything is combined.</li>
+                            <li class="padd-10">Divide the milkshake between two glasses, top with whipped cream and chocolate shavings if desired.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column-2">
+            <img src="images/StrawberryMilkshake.jpg">
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        background-image: url(images/red.jpg);
+    }
+
+    .back-button {
+        position: absolute;
+        right: 0px;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+
+    .back-button:hover {
+        background-color: #3e8e41;
+    }
+
+    .back-button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .marg-15 {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .padd-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .padd-10 {
+        padding-bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        /* background: red; */
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .parent {
+        padding-top: 10vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .column-2 {
+        /* background: floralwhite; */
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .column-1 {
+        /* background: yellow; */
+        height: auto;
+        border: 2px solid;
+        background: floralwhite;
+    }
+    .column-1,
+    .column-2
+    {
+        width: 500px;
+    }
+
+    .column-1 img, 
+    .column-2 img {
+        width: 400px;
+        height: 500px;
+        position: fixed;
+    }
+
+    .column-1 h1 {
+        border-bottom: 2px solid green;
+    }
+
+    .column-1 h2 {
+        text-align: start;
+    }
+
+    .ingredients,
+    .steps {
+        width: 100%;
+    }
+</style>
+</html>

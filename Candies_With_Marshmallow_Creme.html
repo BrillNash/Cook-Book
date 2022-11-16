@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Book</title>
+</head>
+<body>
+    <a href="home.html"><button class="back-button marg-15">Back</button></a>
+    <div class="parent">
+        <div class="column-1">
+           <h1 class="marg-15">Valentine Candy Recipe – Candies with Marshmallow Crème</h1>
+            <p class="padd-15">Make these candies that are sure to win over your sweetie's heart.</p>
+            <dl class="padd-15">
+                <dt class="padd-10">Prep Time</dt>
+                <dd class="padd-10">20 minutes</dd>
+                <dt class="padd-10">Freezing Time</dt>
+                <dd class="padd-10">2 hours and 15 minutes</dd>
+                <dt class="padd-10">Total Time</dt>
+                <dd class="padd-10">2 hours and 35 minutes</dd>
+            </dl>
+            <div class="container">
+                <div class="ingredients">
+                    <h2 class="marg-15">Ingredients for Candies with Marshmallow Crème</h2>
+                    <div class="list-container padd-15">
+                        <ul class="padd-15">
+                            <li class="padd-10">½ cup Wilton Bright Pink Candy Melts</li>
+                            <li class="padd-10">1 tbsp. Cream Cheese</li>
+                            <li class="padd-10">½ cup  Marshmallow Crème</li>
+                            <li class="padd-10">Red Coloring</li>
+                            <li class="padd-10">Small Candy Hearts , red, pink, or white</li>
+                            <li class="padd-10">1 Wilton Stack-N-Melt Candy Mold</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h2 class="marg-15">How to Make Strawberry Milkshake</h2>
+                    <div class="list-container padd-15">
+                        <ol class="padd-15">
+                            <li class="padd-10">A Wilton Candy Melt Pot is recommended to heat candy melts. If you do not own a candy melt pot, 
+                                simply microwave candy melts at 50% for 30 seconds. Stir. Heat at 50% for 30 seconds. Stir. Heat at 50% in 15-second 
+                                intervals and stir until completely smooth. Do not over heat.</li>
+                            <li class="padd-10">Using a spoon, slowly pour candy melts into each circular cavity. Rotate the mold from side to side, 
+                                ensuring all sides are coated. Dip out any excess. The goal is to create a thin shell. Gently tap mold on the 
+                                countertop to remove air bubbles.</li>
+                            <li class="padd-10">Place mold in freezer for 30 minutes.</li>
+                            <li class="padd-10">In a small mixing bowl, combine marshmallow crème and cream cheese. Add red food coloring until desired color is achieved.</li>
+                            <li class="padd-10">Remove mold from freezer. Add marshmallow crème mixture into each circular cavity.</li>
+                            <li class="padd-10">Pour a thin layer of pink candy melts on top of each cavity, creating an enclosure. Wipe any excess from the side.</li>
+                            <li class="padd-10">Place mold in freezer for 30 minutes.</li>
+                            <li class="padd-10">Remove mold. Gently pop each candy from the mold.</li>
+                            <li class="padd-10">Add a drop of pink candy melt to small candy hearts and place on each candy.</li>
+                            <li class="padd-10">Place candies in freezer for 15 minutes.</li>
+                            <li class="padd-10">Remove and serve.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column-2">
+            <img src="images/Candies With Marshmallow Creme.jpg">
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        background-image: url(images/red.jpg);
+    }
+
+    .back-button {
+        position: absolute;
+        right: 0px;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+
+    .back-button:hover {
+        background-color: #3e8e41;
+    }
+
+    .back-button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .marg-15 {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .padd-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .padd-10 {
+        padding-bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .parent {
+        padding-top: 10vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .column-2 {
+        /* background: floralwhite; */
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .column-1 {
+        /* background: yellow; */
+        height: auto;
+        border: 2px solid;
+        background: floralwhite;
+    }
+    .column-1,
+    .column-2
+    {
+        width: 500px;
+    }
+
+    .column-1 img, 
+    .column-2 img {
+        width: 400px;
+        height: 500px;
+        position: fixed;
+    }
+
+    .column-1 h1 {
+        border-bottom: 2px solid green;
+    }
+
+    .column-1 h2 {
+        text-align: start;
+    }
+
+    .ingredients,
+    .steps {
+        width: 100%;
+    }
+</style>
+</html>

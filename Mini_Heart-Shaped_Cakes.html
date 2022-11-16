@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Book</title>
+</head>
+<body>
+    <a href="home.html"><button class="back-button marg-15">Back</button></a>
+    <div class="parent">
+        <div class="column-1">
+            <img src="images/Mini Heart-Shaped Cakes.jpg">
+        </div>
+        <div class="column-2">
+            <h1 class="marg-15">Mini Heart-Shaped Cakes</h1>
+            <p class="padd-15">
+                Keep it sweet and simple this Valentine’s Day with these adorable and delicious Mini Heart-Shaped Cakes! So easy and fun, 
+                have the kids join in the baking!
+            </p>
+            <dl class="padd-15">
+                <dd class="padd-10">These mini heart-shaped cakes are so great for the kids to decorate and enjoy as a Valentine activity at home 
+                    or at school. The cake mix is made according to package directions and spread in a 12 x 17-inch baking sheet to bake for just 
+                    10 minutes</dd>
+                <dd class="padd-10">After the cake cooled, we cut it into 32 mini heart-shaped cakes. Such a quick and easy way to get several 
+                    shaped cakes for serving a crowd or gifting to all your friends and family.</dd>
+                <dd class="padd-10">Then it was time to decorate!</dd>
+            </dl>
+            <div class="container">
+                <div class="ingredients">
+                    <h2 class="marg-15">Ingredients for Mini Heart-Shaped Cakes</h2>
+                    <div class="list-container padd-15">
+                        <ul class="padd-15">
+                            <li class="padd-10">1 (15.25 ounce) box Pillsbury Devil’s Food cake mix</li>
+                            <li class="padd-10">Water, oil & eggs called for on cake mix box</li>
+                            <li class="padd-10">1 (16 ounce) box Pillsbury pre-filled pastry bag frosting (vanilla, cream cheese or chocolate fudge flavored)</li>
+                            <li class="padd-10">1 (5.25 ounce) container Valentine festive sprinkles</li>
+                            <li class="padd-10">Mini heart-shaped cookie cutter</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h2 class="marg-15">How to Make Mini Heart-Shaped Cakes</h2>
+                    <div class="list-container padd-15">
+                        <ol class="padd-15">
+                            <li class="padd-10">Preheat oven to 350°F. Spray a 12 x 17-inch baking sheet with non-stick cooking spray and set aside.</li>
+                            <li class="padd-10">In a large mixing bowl, prepare cake mix as directed on the box using water, oil and eggs. 
+                                Spread batter evenly into prepared baking pan. Bake for about 10 minutes or until a toothpick inserted in the center 
+                                comes out clean, rotating pan halfway through baking time. Let cake cool completely in the pan set on a wire rack, 
+                                about 30 minutes.</li>
+                            <li class="padd-10">Once cake is cooled, use a small heart-shaped cookie cutter to cut and remove about 32 mini hearts 
+                                from the cake. Set heart cakes on a tray or board you can decorate them on.</li>
+                            <li class="padd-10">Decorate each mini cake with the pre-filled pastry bag of frosting. Immediately sprinkle with festive sprinkles.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        background-image: url(images/red.jpg);
+    }
+
+    .back-button {
+        position: absolute;
+        right: 0px;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+
+    .back-button:hover {
+        background-color: #3e8e41;
+    }
+
+    .back-button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .marg-15 {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .padd-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .padd-10 {
+        padding-bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .parent {
+        padding-top: 10vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .column-1 {
+        /* background: red; */
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .column-2 {
+        background: floralwhite;
+        height: auto;
+        border: 2px solid;
+    }
+    .column-1,
+    .column-2
+    {
+        width: 500px;
+    }
+
+    .column-1 img, 
+    .column-2 img {
+        width: 400px;
+        height: 500px;
+        position: fixed;
+    }
+
+    .column-2 h1 {
+        border-bottom: 2px solid green;
+    }
+
+    .column-2 h2 {
+        text-align: start;
+    }
+
+    .ingredients,
+    .steps {
+        width: 100%;
+    }
+</style>
+</html>

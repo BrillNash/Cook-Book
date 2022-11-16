@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Book</title>
+</head>
+<body>
+    <a href="home.html"><button class="back-button marg-15">Back</button></a>
+    <div class="parent">
+        <div class="column-1">
+            <img src="images/RaspberryFool.jpg">
+        </div>
+        <div class="column-2">
+            <h1 class="marg-15">Raspberry Fool</h1>
+            <p class="padd-15">
+                Raspberry Fool is a quick and easy raspberry dessert recipe. It’s essentially raspberries and cream 
+                that’s been swirled together to make an elegant treat!
+            </p>
+            <dl class="padd-15">
+                <dt class="padd-10">Can I Use Frozen Raspberries?</dt>
+                <dd class="padd-10">I wouldn’t recommend using frozen raspberries here. This is one raspberry dessert that’s much better 
+                    when you stick to fresh berries.</dd>
+                <dt class="padd-10">Can I Prep This Raspberry Fool in Advance?</dt>
+                <dd class="padd-10">Raspberries and cream is best enjoyed the day you make it, but if you want to prep this raspberry recipe for a picnic or 
+                    potluck later in the day it should last until then. Just make sure to store your Raspberry Fool in an airtight container 
+                    in the fridge in the meantime. If the whipped cream becomes too warm, it’ll melt.</dd>
+                <dt class="padd-10">Tips for Making This Easy Raspberry Recipe</dt>
+                <dd class="padd-10">I used my KitchenAid hand blender to do the job of pureeing the Driscoll’s raspberries and whipping the cream. If seeds in your 
+                    puree aren’t your thing, simply press the puree through a fine mesh strainer or sieve into a small bowl. Personally, I like 
+                    the texture they add to each fluffy mouthful.</dd>
+                <dd class="padd-10">I added vanilla to this batch of cream, but I thought about giving almond extract a try since it pairs so well with 
+                    raspberries. Or use a tablespoon of brandy or even orange-flavored liquer for a new profile of flavor.</dd>
+                <dd class="padd-10">Be sure NOT to overmix the fool. The key is gently folding here folks, so that ribbons of raspberries dance in their heads.</dd>
+                <dd class="padd-10">While I have some beautiful crystal bowls that were my grandmother’s, I used my small Weck jars for spooning the fool into. 
+                    With a secure lid it makes them easy to toss into a cooler and take on a picnic or lunch box for dessert on the run.</dd>
+            </dl>
+            <div class="container">
+                <div class="ingredients">
+                    <h2 class="marg-15">Ingredients for Homemade Raspberry Fool</h2>
+                    <div class="list-container padd-15">
+                        <ul class="padd-15">
+                            <li class="padd-10">2 cups Driscoll's raspberries 12 ounce package</li>
+                            <li class="padd-10">2 tablespoons granulated sugar</li>
+                            <li class="padd-10">2 cups whipping cream</li>
+                            <li class="padd-10">¼ cup confectioners sugar powdered sugar</li>
+                            <li class="padd-10">1 teaspoon vanilla extract*</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h2 class="marg-15">How to Make Homemade Raspberry Fool</h2>
+                    <div class="list-container padd-15">
+                        <ol class="padd-15">
+                            <li class="padd-10">Puree 1 ½ cups of the Driscoll's raspberries in a food processor or blender with the 2 
+                                tablespoons of granulated sugar.</li>
+                            <li class="padd-10">In a large bowl, add the cream, confectioners sugar and vanilla extract. 
+                                Mix with an electric hand mixer or whisk by hand until stiff peaks form.</li>
+                            <li class="padd-10">With a rubber spatula, gently fold in ¾ of the pureed raspberries into the whipped cream mixture, leaving visible swirls. 
+                                Gently fold in the rest of the puree but be careful not to overmix. Spoon the fool into 4-6 glass cups or small bowls. 
+                                Top with additional raspberries and serve.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        background-image: url(images/red.jpg);
+    }
+
+    .back-button {
+        position: absolute;
+        right: 0px;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+
+    .back-button:hover {
+        background-color: #3e8e41;
+    }
+
+    .back-button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .marg-15 {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .padd-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .padd-10 {
+        padding-bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .parent {
+        padding-top: 10vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .column-1 {
+        /* background: red; */
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .column-2 {
+        background: floralwhite;
+        height: auto;
+        border: 2px solid;
+    }
+    .column-1,
+    .column-2
+    {
+        width: 500px;
+    }
+
+    .column-1 img, 
+    .column-2 img {
+        width: 400px;
+        height: 500px;
+        position: fixed;
+    }
+
+    .column-2 h1 {
+        border-bottom: 2px solid green;
+    }
+
+    .column-2 h2 {
+        text-align: start;
+    }
+
+    .ingredients,
+    .steps {
+        width: 100%;
+    }
+</style>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Book</title>
+</head>
+<body>
+    <a href="home.html"><button class="back-button marg-15">Back</button></a>
+    <div class="parent">
+        <div class="column-1">
+            <img src="images/Flamingo Blondie Bars.jpg">
+        </div>
+        <div class="column-2">
+            <h1 class="marg-15">Flamingo Blondie Bars</h1>
+            <p class="padd-15">
+                Easy Flamingo Dessert Bars are perfect for summer parties. Perfectly pink dessert topped with the best flamingo sprinkles around. 
+                Using an easy base recipe for blondies, you can easily create the perfect dessert to match any party theme. If you're looking for 
+                food for a flamingo party, you have come to the right place! Let me show you how easy these bars are to make.
+            </p>
+            <dl class="padd-15">
+                <dt class="padd-10">Prep Time</dt>
+                <dd class="padd-10">10 minutes</dd>
+                <dt class="padd-10">Cook Time</dt>
+                <dd class="padd-10">40 minutes</dd>
+                <dt class="padd-10">Additional Time</dt>
+                <dd class="padd-10">15 minutes</dd>
+                <dt class="padd-10">Total Time</dt>
+                <dd class="padd-10">1 hour and 5 minutes</dd>
+            </dl>
+            <div class="container">
+                <div class="ingredients">
+                    <h2 class="marg-15">Ingredients for Homemade Flamingo Blondie Bars</h2>
+                    <div class="list-container padd-15">
+                        <ul class="padd-15">
+                            <li class="padd-10">1 box white cake mix</li>
+                            <li class="padd-10">¼ cup vegetable oil</li>
+                            <li class="padd-10">1 large egg (beaten)</li>
+                            <li class="padd-10">¼-⅓ cup milk</li>
+                            <li class="padd-10">½ cup white chocolate chips</li>
+                            <li class="padd-10">Food gel (Wilton Neon Gel Food Color Set)</li>
+                            <li class="padd-10">Frosting</li>
+                            <li class="padd-10">Sprinkles (Flamingo Blend)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h2 class="marg-15">How to Make Homemade Flamingo Blondie Bars</h2>
+                    <div class="list-container padd-15">
+                        <ol class="padd-15">
+                            <li class="padd-10">Preheat oven to 350 degrees.</li>
+                            <li class="padd-10">In a large bowl, mix together the first three ingredients. Slowly incorporate milk, starting with 
+                                ¼ cup and add more if necessary. The batter should be thick and resemble silly putty.</li>
+                            <li class="padd-10">Add white chocolate chips.</li>
+                            <li class="padd-10">Transfer about 1 cup of batter to a small bowl. Add 3-4 drops of pink food gel and mix until fully incorporated.</li>
+                            <li class="padd-10">Add 2-3 drops of pink food gel to remaining batter and transfer to parchment lined 8x8 baking dish.</li>
+                            <li class="padd-10">Spoon dark pink batter on to the light pink batter and use a knife to create a swirl design.</li>
+                            <li class="padd-10">Bake for 25 minutes then cover with aluminum foil and bake for another 15 minutes. Remove from oven and allow to cool completely.</li>
+                            <li class="padd-10">Once the blondies have cooled, use a pastry bag or baggie to drizzle frosting and add sprinkles.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        background-image: url(images/red.jpg);
+    }
+
+    .back-button {
+        position: absolute;
+        right: 0px;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+
+    .back-button:hover {
+        background-color: #3e8e41;
+    }
+
+    .back-button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .marg-15 {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .padd-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .padd-10 {
+        padding-bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .parent {
+        padding-top: 10vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .column-1 {
+        /* background: red; */
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .column-2 {
+        background: floralwhite;
+        height: auto;
+        border: 2px solid;
+    }
+    .column-1,
+    .column-2
+    {
+        width: 500px;
+    }
+
+    .column-1 img, 
+    .column-2 img {
+        width: 400px;
+        height: 500px;
+        position: fixed;
+    }
+
+    .column-2 h1 {
+        border-bottom: 2px solid green;
+    }
+
+    .column-2 h2 {
+        text-align: start;
+    }
+
+    .ingredients,
+    .steps {
+        width: 100%;
+    }
+</style>
+</html>

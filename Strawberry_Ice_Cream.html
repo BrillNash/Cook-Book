@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cook Book</title>
+</head>
+<body>
+    <a href="home.html"><button class="back-button marg-15">Back</button></a>
+    <div class="parent">
+        <div class="column-1">
+            <img src="images/StrawberryIceCream.jpg">
+        </div>
+        <div class="column-2">
+            <h1 class="marg-15">Strawberry Ice Cream</h1>
+            <p class="padd-15">
+                Rich and creamy homemade strawberry ice cream with real strawberry flavor!
+            </p>
+            <dl class="padd-15">
+                <dt class="padd-10">Egg yolks</dt>
+                <dd class="padd-10">it’s the absolute most important ingredient to make a thick, creamy and rich ice cream.</dd>
+            </dl>
+            <div class="container">
+                <div class="ingredients">
+                    <h2 class="marg-15">Ingredients for Homemade Strawberry Ice Cream</h2>
+                    <div class="list-container padd-15">
+                        <ul class="padd-15">
+                            <li class="padd-10">Heavy Cream</li>
+                            <li class="padd-10">Half and Half</li>
+                            <li class="padd-10">Vanilla Bean Pods</li>
+                            <li class="padd-10">Sugar</li>
+                            <li class="padd-10">Egg Yolks</li>
+                            <li class="padd-10">Freeze Dried Strawberries</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="steps">
+                    <h2 class="marg-15">How to Make Homemade Strawberry Ice Cream</h2>
+                    <div class="list-container padd-15">
+                        <ol class="padd-15">
+                            <li class="padd-10">Combine all the ingredients except the eggs and strawberries to a saucepan over medium low heat. 
+                                Heat the mixture just until bubbles form around the edges of the pan. Then remove the pan from the heat.</li>
+                            <li class="padd-10">Whisk the egg yolks in a bowl until they become pale yellow.</li>
+                            <li class="padd-10">Add some of the strawberries to a blender and blend until they are powder.</li>
+                            <li class="padd-10">Remove a few tablespoons (5ish) of the hot cream mixture and add it to the eggs one tablespoon at a time, whisking constantly.</li>
+                                <ul><li class="padd-10"><h4 style="
+                                    display: contents;
+                                ">PRO TIP:</h4> This slowly warms up the eggs without scrambling them. We don’t want that!</li></ul>
+                            <li class="padd-10">Then slowly add the egg mixture into the hot cream mixture, whisking constantly still, and return 
+                                the saucepan to the stove over medium low heat.</li>
+                            <li class="padd-10">Add the strawberry powder and whisk vigorously to combine everything.</li>
+                            <li class="padd-10">Crumble up the remaining strawberries and add them as well.</li>
+                            <li class="padd-10">Stir constantly until thickened.</li>
+                            <li class="padd-10">Remove from the heat and chill in the refrigerator until completely cool.</li>
+                            <li class="padd-10">Freeze the mixture in your ice cream maker.</li>
+                            <li class="padd-10">Scoop into an ice cream container and then place it in the freezer for several hours.</li>
+                            <li class="padd-10">Serve and enjoy!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        background-image: url(images/red.jpg);
+    }
+
+    .back-button {
+        position: absolute;
+        right: 0px;
+        display: inline-block;
+        padding: 15px 25px;
+        font-size: 24px;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #4CAF50;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+    }
+
+    .back-button:hover {
+        background-color: #3e8e41;
+    }
+
+    .back-button:active {
+        background-color: #3e8e41;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+    .marg-15 {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .padd-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .padd-10 {
+        padding-bottom: 10px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .parent {
+        padding-top: 10vh;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .column-1 {
+        /* background: red; */
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .column-2 {
+        background: floralwhite;
+        height: auto;
+        border: 2px solid;
+    }
+    .column-1,
+    .column-2
+    {
+        width: 500px;
+    }
+
+    .column-1 img, 
+    .column-2 img {
+        width: 400px;
+        height: 500px;
+        position: fixed;
+    }
+
+    .column-2 h1 {
+        border-bottom: 2px solid green;
+    }
+
+    .column-2 h2 {
+        text-align: start;
+    }
+
+    .ingredients,
+    .steps {
+        width: 100%;
+    }
+</style>
+</html>
